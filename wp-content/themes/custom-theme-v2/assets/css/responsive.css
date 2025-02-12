@@ -1,0 +1,694 @@
+@media (min-width: 1400px) and (max-width: 1599.98px) {}
+
+@media (max-width: 1200px) {
+    img{max-width:100%;height:auto}
+    .menu-Bar{display:block;top:0}
+    .menuWrap.open{display:flex;left:0}
+    .menuWrap{position:fixed;left:-210%;right:0;top:0;bottom:0;margin:auto;background:var(--theme-color);height:100vh;display:flex;align-items:center;justify-content:center;flex-flow:column;transition:all 0.4s ease;z-index:3;width:100vw}
+    ul.menu li{display:block}
+    ul.menu li a{padding:0;display:block;text-align:center;margin-bottom:15px;padding-right:0;margin-right:0;color:#fff;font-size:15px;text-transform:capitalize}
+    .logo img{max-width:70%}.container{position:relative}
+    header .main-header ul.menu>li{display:block;margin:0;padding:0}
+    header .main-header ul.menu>li a{color:#020202}
+    header .main-header ul.menu>li a:before{display:none}
+}
+
+
+/* ipad pro */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mb-cnt h4 {
+        font-size: 34px;
+    }
+
+    .mb-cnt h1 {
+        font-size: 45px;
+        line-height: 0.9;
+        letter-spacing: -4.12px;
+    }
+
+    .mb-cnt h4 {
+        font-size: 30px;
+        letter-spacing: -3.2px;
+    }
+
+    .mb-cnt p {
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 60px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .videoBanner a img {
+        height: 85px;
+    }
+
+    h2.main-head {
+        font-size: 34px;
+    }
+
+    .s2-content {
+        margin-bottom: 20px;
+    }
+
+    .s2-content h4 {
+        font-size: 32px;
+        line-height: 1.19;
+        letter-spacing: 1px;
+    }
+
+    .s2-content p {
+        width: auto;
+    }
+
+    .s2-content>span {
+        font-size: 18px;
+    }
+
+    section.sec-three {
+        padding: 0;
+    }
+
+    .s3-content p {
+        margin: 10px 0 10px;
+    }
+
+    .s3_card {
+        margin-top: 20px;
+        padding: 42.6px 0 47px;
+    }
+
+    .s3_card figure {
+        margin: 0 auto 27.7px;
+    }
+
+    .s3_card h5 {
+        margin-bottom: 12.8px;
+    }
+
+    .s3_card ul li {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .s3_card a {
+        font-size: 14.8px;
+    }
+
+    .s3_card ul {
+        margin-bottom: 15px;
+    }
+
+    ul.industry-list li figure img {
+        height: 60px;
+    }
+
+    ul.industry-list li figure {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 13px;
+    }
+
+    .s5-inner-cont {
+        padding-left: 0px;
+    }
+
+    h2.main-head {
+        font-size: 28px;
+    }
+
+    .sec5-title {
+        padding-right: 0;
+    }
+
+    .case-card figure img {
+        height: auto;
+    }
+
+    ul.accordion-list li h3 {
+        font-size: 16px;
+        padding-right: 54px;
+    }
+
+    ul.accordion-list li div.answer p {
+        padding: 26px 0 0px;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+    ul.accordion-list li.active:after {
+        height: 50px;
+    }
+
+    ul.accordion-list li:after {
+        width: 52px;
+    }
+
+    section.sec-seven .content h3 {
+        font-size: 38px;
+        line-height: 1.01;
+        letter-spacing: 1.12px;
+    }
+
+    .banner-bg {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    h4.head-left {
+    text-align: center;
+    margin-right: -80px;
+    }
+
+    section.sec-two {
+        padding: 3rem 0;
+    }
+
+    .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    section.sec-three::after {
+        top: -50px;
+        width: 80%;
+        height: 100%;
+        background-size: contain;
+        background-position: right;
+    }
+
+    section.sec-four .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    ul.industry-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 0;
+    }
+    a.logo {
+        font-size: 17px;
+    }
+    ul.cases-slider .slick-slide {
+        margin: 0 15px;
+    }
+
+    .case-card .content h5 {
+        font-size: 20px;
+    }
+
+    section.sec-six {
+        position: relative;
+        z-index: 1;
+    }
+
+    ul.accordion-list li {
+        padding: 10px;
+    }
+
+    section.sec-seven {
+        padding-top: 0;
+    }
+
+    ul.footer-menu li a {
+        font-size: 13px;
+    }
+
+    ul.footer-menu li+li {
+        margin-left: 20px;
+    }
+
+    ul.footer-menu {
+        margin-bottom: 1rem;
+    }
+
+    .widget {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .widget p {
+        font-size: 14px;
+    }
+
+    .menu li.hdr-btn a {
+        background: #00dbf0;
+    }
+}
+
+
+/* ipad mini */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mb-cnt h4 {
+        font-size: 34px;
+    }
+
+    .mb-cnt h1 {
+        font-size: 45px;
+        line-height: 0.9;
+        letter-spacing: -4.12px;
+    }
+
+    .mb-cnt h4 {
+        font-size: 30px;
+        letter-spacing: -3.2px;
+    }
+
+    .mb-cnt p {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0 60px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .videoBanner a img {
+        height: 85px;
+    }
+
+    h2.main-head {
+        font-size: 34px;
+    }
+
+    .s2-content {
+        margin-bottom: 20px;
+    }
+
+    .s2-content h4 {
+        font-size: 32px;
+        line-height: 1.19;
+        letter-spacing: 1px;
+    }
+
+    .s2-content p {
+        width: auto;
+    }
+
+    .s2-content>span {
+        font-size: 18px;
+    }
+
+    section.sec-three {
+        padding: 0;
+    }
+
+    .s3-content p {
+        margin: 10px 0 10px;
+    }
+
+    .s3_card {
+        margin-top: 20px;
+        padding: 42.6px 0 47px;
+    }
+
+    .s3_card figure {
+        margin: 0 auto 27.7px;
+    }
+
+    .s3_card h5 {
+        margin-bottom: 12.8px;
+    }
+
+    .s3_card ul li {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .s3_card a {
+        font-size: 14.8px;
+    }
+
+    .s3_card ul {
+        margin-bottom: 15px;
+    }
+
+    ul.industry-list li figure img {
+        height: 60px;
+    }
+
+    ul.industry-list li figure {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 13px;
+    }
+
+    .s5-inner-cont {
+        padding-left: 0px;
+    }
+
+    h2.main-head {
+        font-size: 28px;
+    }
+
+    .sec5-title {
+        padding-right: 0;
+    }
+
+    .case-card figure img {
+        height: auto;
+    }
+
+    ul.accordion-list li h3 {
+        font-size: 16px;
+        padding-right: 54px;
+    }
+
+    ul.accordion-list li div.answer p {
+        padding: 26px 0 0px;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+    ul.accordion-list li.active:after {
+        height: 50px;
+    }
+
+    ul.accordion-list li:after {
+        width: 52px;
+    }
+
+    section.sec-seven .content h3 {
+        font-size: 38px;
+        line-height: 1.01;
+        letter-spacing: 1.12px;
+    }
+
+    .banner-bg {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    h4.head-left {
+    text-align: center;
+    margin-right: -80px;
+    }
+
+    section.sec-two {
+        padding: 3rem 0;
+    }
+
+    .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    section.sec-three::after {
+        top: -50px;
+        width: 80%;
+        height: 100%;
+        background-size: contain;
+        background-position: right;
+    }
+
+    section.sec-four .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    ul.industry-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 0;
+    }
+    a.logo {
+        font-size: 17px;
+    }
+    ul.cases-slider .slick-slide {
+        margin: 0 15px;
+    }
+
+    .case-card .content h5 {
+        font-size: 20px;
+    }
+
+    section.sec-six {
+        position: relative;
+        z-index: 1;
+    }
+
+    ul.accordion-list li {
+        padding: 10px;
+    }
+
+    section.sec-seven {
+        padding-top: 0;
+    }
+
+    ul.footer-menu li a {
+        font-size: 13px;
+    }
+
+    ul.footer-menu li+li {
+        margin-left: 20px;
+    }
+
+    ul.footer-menu {
+        margin-bottom: 1rem;
+    }
+
+    .widget {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .widget p {
+        font-size: 14px;
+    }
+
+    .menu li.hdr-btn a {
+        background: #00dbf0;
+    }
+}
+
+
+/* mob view */
+
+@media (max-width: 767px) {
+    .mb-cnt h4 {
+        font-size: 34px;
+    }
+
+    .mb-cnt h1 {
+        font-size: 45px;
+        line-height: 0.9;
+        letter-spacing: -4.12px;
+    }
+
+    .mb-cnt h4 {
+        font-size: 30px;
+        letter-spacing: -3.2px;
+    }
+
+    .mb-cnt p {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .videoBanner a img {
+        height: 85px;
+    }
+
+    h2.main-head {
+        font-size: 34px;
+    }
+
+    .s2-content {
+        margin-bottom: 20px;
+    }
+
+    .s2-content h4 {
+        font-size: 32px;
+        line-height: 1.19;
+        letter-spacing: 1px;
+    }
+
+    .s2-content p {
+        width: auto;
+    }
+
+    .s2-content>span {
+        font-size: 18px;
+    }
+
+    section.sec-three {
+        padding: 0;
+    }
+
+    .s3-content p {
+        margin: 10px 0 10px;
+    }
+
+    .s3_card {
+        margin-top: 20px;
+        padding: 42.6px 0 47px;
+    }
+
+    .s3_card figure {
+        margin: 0 auto 27.7px;
+    }
+
+    .s3_card h5 {
+        margin-bottom: 12.8px;
+    }
+
+    .s3_card ul li {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .s3_card a {
+        font-size: 14.8px;
+    }
+
+    .s3_card ul {
+        margin-bottom: 15px;
+    }
+
+    ul.industry-list li figure img {
+        height: 60px;
+    }
+
+    ul.industry-list li figure {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 13px;
+    }
+
+    .s5-inner-cont {
+        padding-left: 0px;
+    }
+
+    h2.main-head {
+        font-size: 28px;
+    }
+
+    .sec5-title {
+        padding-right: 0;
+    }
+
+    .case-card figure img {
+        height: auto;
+    }
+
+    ul.accordion-list li h3 {
+        font-size: 16px;
+        padding-right: 54px;
+    }
+
+    ul.accordion-list li div.answer p {
+        padding: 26px 0 0px;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+
+    ul.accordion-list li.active:after {
+        height: 50px;
+    }
+
+    ul.accordion-list li:after {
+        width: 52px;
+    }
+
+    section.sec-seven .content h3 {
+        font-size: 38px;
+        line-height: 1.01;
+        letter-spacing: 1.12px;
+    }
+
+    .banner-bg {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    h4.head-left {
+        margin-right: 33px;
+    }
+
+    section.sec-two {
+        padding: 3rem 0;
+    }
+
+    .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    section.sec-three::after {
+        top: -50px;
+    }
+
+    section.sec-four .sec-title {
+        margin-bottom: 3rem;
+    }
+
+    ul.industry-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 0;
+    }
+    a.logo {
+        font-size: 17px;
+    }
+    ul.cases-slider .slick-slide {
+        margin: 0 15px;
+    }
+
+    .case-card .content h5 {
+        font-size: 20px;
+    }
+
+    section.sec-six {
+        position: relative;
+        z-index: 1;
+    }
+
+    ul.accordion-list li {
+        padding: 10px;
+    }
+
+    section.sec-seven {
+        padding-top: 0;
+    }
+
+    ul.footer-menu li a {
+        font-size: 13px;
+    }
+
+    ul.footer-menu li+li {
+        margin-left: 20px;
+    }
+
+    ul.footer-menu {
+        margin-bottom: 1rem;
+    }
+
+    .widget {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .widget p {
+        font-size: 14px;
+    }
+
+    .menu li.hdr-btn a {
+        background: #00dbf0;
+    }
+}
